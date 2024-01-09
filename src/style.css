@@ -1,0 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@700;900&family=Overpass&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+	@apply min-h-screen bg-[image:url('../assets/heroBg.jpg')] bg-cover bg-center leading-[1.5] font-sans;
+}
