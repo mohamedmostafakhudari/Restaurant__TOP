@@ -2,7 +2,7 @@ import Mustache from "mustache";
 import { render as navbarRender } from "./navbar";
 const contentContainer = document.querySelector("#content");
 
-const template = `<div class="grid grid-cols-[1fr_1fr] h-full">
+const template = `<div class="grid grid-cols-[1fr_1fr] h-full xl:grid-cols-[700px_1fr]">
 <div class="bg-gradient-to-b text-center from-black/20 to-black/60 px-8">
   <h1 class="text-5xl font-serif leading-[1.4] py-16 text-white uppercase font-black tracking-widest">
    {{{ heroHeading }}}

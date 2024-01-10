@@ -68,9 +68,9 @@ const menuItems = [
 	},
 ];
 const template = `
-<div class="container gap-10 mx-auto grid grid-cols-[repeat(auto-fill,minmax(min(100%,360px),1fr))] px-4 mt-16">
+<div class="container gap-10 mx-auto grid grid-cols-[repeat(auto-fill,minmax(min(100%,360px),1fr))] px-4 mt-16 py-6 animate-[fadeIn_0.5s_ease-in-out]">
   {{#menuItems}}
-				<div class="relative group">
+				<div class="relative rounded-md overflow-hidden group">
 					<div class="absolute inset-0 px-6 bg-black/60 text-white grid grid-cols-1 items-center duration-300 ease-in-out opacity-0 pointer-events-none group-hover:opacity-100 group-hover:pointer-events-auto">
 						<div class="py-4 pb-0">
 							<h3 class="text-3xl leading-[1.6]">{{ name }}</h3>
