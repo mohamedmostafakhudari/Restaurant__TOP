@@ -5,5 +5,5 @@
 @tailwind utilities;
 
 body {
-	@apply min-h-screen bg-[image:url('../assets/heroBg.jpg')] bg-cover bg-center leading-[1.5] font-sans;
+	@apply min-h-screen leading-[1.5] font-sans;
 }
