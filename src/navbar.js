@@ -40,7 +40,6 @@ function render() {
 	if ($navElement) {
 		$navElement.remove();
 	}
-	console.log(view);
 	content.insertAdjacentHTML("beforebegin", Mustache.render(template, view));
 	bindEvents();
 }
@@ -51,6 +50,7 @@ function bindEvents() {
 			const label = e.target.dataset.label;
 			if (label === "Home") {
 				addActiveState(label);
+
 				homeRender();
 			} else if (label === "Menu") {
 				addActiveState(label);
