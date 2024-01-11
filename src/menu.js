@@ -1,70 +1,73 @@
 import Mustache from "mustache";
 import { render as navbarRender } from "./navbar";
-
+import hamburgerImage from "./assets/burger-4145977_640.jpg";
+import eggImage from "./assets/eggs-1467286_640.jpg";
+import pancakesImage from "./assets/pancakes-2291908_640.jpg";
+import pizzaImage from "./assets/plate-2802332_640.jpg";
 const contentContainer = document.querySelector("#content");
 
 const menuItems = [
 	{
 		name: "Hamburger",
 		desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia est pariatur illum hic aliquid voluptatem dolores magni ipsum veniam commodi!",
-		imgUrl: "./assets/burger-4145977_640.jpg",
+		imgUrl: hamburgerImage,
 	},
 	{
 		name: "Eggs",
 		desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia est pariatur illum hic aliquid voluptatem dolores magni ipsum veniam commodi!",
-		imgUrl: "./assets/eggs-1467286_640.jpg",
+		imgUrl: eggImage,
 	},
 	{
 		name: "Pancakes",
 		desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia est pariatur illum hic aliquid voluptatem dolores magni ipsum veniam commodi!",
-		imgUrl: "./assets/pancakes-2291908_640.jpg",
+		imgUrl: pancakesImage,
 	},
 	{
 		name: "Pizza",
 		desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia est pariatur illum hic aliquid voluptatem dolores magni ipsum veniam commodi!",
-		imgUrl: "./assets/plate-2802332_640.jpg",
+		imgUrl: pizzaImage,
 	},
 	{
 		name: "Pancakes",
 		desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia est pariatur illum hic aliquid voluptatem dolores magni ipsum veniam commodi!",
-		imgUrl: "./assets/pancakes-2291908_640.jpg",
+		imgUrl: pancakesImage,
 	},
 	{
 		name: "Pizza",
 		desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia est pariatur illum hic aliquid voluptatem dolores magni ipsum veniam commodi!",
-		imgUrl: "./assets/plate-2802332_640.jpg",
+		imgUrl: pizzaImage,
 	},
 
 	{
 		name: "Eggs",
 		desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia est pariatur illum hic aliquid voluptatem dolores magni ipsum veniam commodi!",
-		imgUrl: "./assets/eggs-1467286_640.jpg",
+		imgUrl: eggImage,
 	},
 	{
 		name: "Hamburger",
 		desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia est pariatur illum hic aliquid voluptatem dolores magni ipsum veniam commodi!",
-		imgUrl: "./assets/burger-4145977_640.jpg",
+		imgUrl: hamburgerImage,
 	},
 	{
 		name: "Eggs",
 		desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia est pariatur illum hic aliquid voluptatem dolores magni ipsum veniam commodi!",
-		imgUrl: "./assets/eggs-1467286_640.jpg",
+		imgUrl: eggImage,
 	},
 	{
 		name: "Hamburger",
 		desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia est pariatur illum hic aliquid voluptatem dolores magni ipsum veniam commodi!",
-		imgUrl: "./assets/burger-4145977_640.jpg",
+		imgUrl: hamburgerImage,
 	},
 
 	{
 		name: "Pancakes",
 		desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia est pariatur illum hic aliquid voluptatem dolores magni ipsum veniam commodi!",
-		imgUrl: "./assets/pancakes-2291908_640.jpg",
+		imgUrl: pancakesImage,
 	},
 	{
 		name: "Pizza",
 		desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia est pariatur illum hic aliquid voluptatem dolores magni ipsum veniam commodi!",
-		imgUrl: "./assets/plate-2802332_640.jpg",
+		imgUrl: pizzaImage,
 	},
 ];
 const template = `
